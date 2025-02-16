@@ -19,7 +19,7 @@ void addTask() {
     cin.ignore();
     getline(cin, taskDescription);
     tasks.push_back(Task(taskDescription));
-    cout << "Task added" << taskDescription << endl;
+    cout << "Task added " << taskDescription << endl;
 }
 
 void viewTask() {
@@ -67,6 +67,7 @@ void showMenu() {
     cout << "4. Remove task\n";
     cout << "5. Exit\n";
 }
+
 
 int main() {
     int choice;
